@@ -1,0 +1,449 @@
+{
+  "ha=AAPL__model=RNN_BN_simple__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 37376.4453125,
+      "mean_pnl": -2.7883
+    }
+  },
+  "ha=AAPL,MSFT__model=RNN_BN_simple__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 113334.2421875,
+      "mean_pnl": 0.2752
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT__model=RNN_BN_simple__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 87094.609375,
+      "mean_pnl": -1.4034
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN__model=RNN_BN_simple__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 91623.875,
+      "mean_pnl": -0.9707
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN,BRK-B__model=RNN_BN_simple__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "BRK-B"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 94129.578125,
+      "mean_pnl": -0.3936
+    }
+  },
+  "ha=AAPL__model=RNN_BN_simple__mode=diffusion": {
+    "data_mode": "diffusion",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": -0.14378805458545685,
+      "mean_pnl": -4.9466
+    }
+  },
+  "ha=AAPL,MSFT__model=RNN_BN_simple__mode=diffusion": {
+    "data_mode": "diffusion",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 0.8058929443359375,
+      "mean_pnl": -4.9419
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT__model=RNN_BN_simple__mode=diffusion": {
+    "data_mode": "diffusion",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 50.69214630126953,
+      "mean_pnl": -0.8528
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN__model=RNN_BN_simple__mode=diffusion": {
+    "data_mode": "diffusion",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 1.4446167945861816,
+      "mean_pnl": -4.8653
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN,BRK-B__model=RNN_BN_simple__mode=diffusion": {
+    "data_mode": "diffusion",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "BRK-B"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 2.3947830200195312,
+      "mean_pnl": -4.8515
+    }
+  },
+  "ha=AAPL__model=RNN_BN_simple__mode=bs_deephedging": {
+    "data_mode": "bs_deephedging",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 35479.92578125,
+      "mean_pnl": -3.4676406383514404
+    }
+  },
+  "ha=AAPL,MSFT__model=RNN_BN_simple__mode=bs_deephedging": {
+    "data_mode": "bs_deephedging",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 108668.5078125,
+      "mean_pnl": -3.434725284576416
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT__model=RNN_BN_simple__mode=bs_deephedging": {
+    "data_mode": "bs_deephedging",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 61705.171875,
+      "mean_pnl": -3.8009448051452637
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN__model=RNN_BN_simple__mode=bs_deephedging": {
+    "data_mode": "bs_deephedging",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 81933.734375,
+      "mean_pnl": -3.7768518924713135
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN,BRK-B__model=RNN_BN_simple__mode=bs_deephedging": {
+    "data_mode": "bs_deephedging",
+    "model": "RNN_BN_simple",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "BRK-B"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 84508.515625,
+      "mean_pnl": -4.413022041320801
+    }
+  },
+
+  "ha=AAPL__model=SigFormer__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 166285.4375,
+      "mean_pnl": 18.1672420501709
+    }
+  },
+  
+  "ha=AAPL__model=SigFormer__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.247278213500977,
+      "mean_pnl": 18.16730308532715
+    }
+  },
+  "ha=AAPL,MSFT__model=SigFormer__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.24510669708252,
+      "mean_pnl": 25.099645614624023
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT__model=SigFormer__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.19064998626709,
+      "mean_pnl": 28.719867706298828
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN__model=SigFormer__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.187637329101562,
+      "mean_pnl": 30.209964752197266
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN,BRK-B__model=SigFormer__mode=market_data": {
+    "data_mode": "market_data",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "BRK-B"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.212631225585938,
+      "mean_pnl": 27.75423240661621
+    }
+  },
+  "ha=AAPL__model=SigFormer__mode=diffusion": {
+    "data_mode": "diffusion",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.218915939331055,
+      "mean_pnl": 20.024919509887695
+    }
+  },
+  "ha=AAPL,MSFT__model=SigFormer__mode=diffusion": {
+    "data_mode": "diffusion",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.219457626342773,
+      "mean_pnl": 29.929155349731445
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT__model=SigFormer__mode=diffusion": {
+    "data_mode": "diffusion",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.116096496582031,
+      "mean_pnl": 39.43088150024414
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN__model=SigFormer__mode=diffusion": {
+    "data_mode": "diffusion",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.6526517868042,
+      "mean_pnl": -50.389739990234375
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN,BRK-B__model=SigFormer__mode=diffusion": {
+    "data_mode": "diffusion",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "BRK-B"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.692009925842285,
+      "mean_pnl": -56.4173469543457
+    }
+  },
+  "ha=AAPL__model=SigFormer__mode=bs_deephedging": {
+    "data_mode": "bs_deephedging",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.249283790588379,
+      "mean_pnl": 19.866342544555664
+    }
+  },
+  "ha=AAPL,MSFT__model=SigFormer__mode=bs_deephedging": {
+    "data_mode": "bs_deephedging",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.247292518615723,
+      "mean_pnl": 25.40528678894043
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT__model=SigFormer__mode=bs_deephedging": {
+    "data_mode": "bs_deephedging",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.204951286315918,
+      "mean_pnl": 26.337432861328125
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN__model=SigFormer__mode=bs_deephedging": {
+    "data_mode": "bs_deephedging",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.248023986816406,
+      "mean_pnl": 21.775800704956055
+    }
+  },
+  "ha=AAPL,GOOGL,MSFT,AMZN,BRK-B__model=SigFormer__mode=bs_deephedging": {
+    "data_mode": "bs_deephedging",
+    "model": "SigFormer",
+    "hedge_assets": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "BRK-B"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 9.735360145568848,
+      "mean_pnl": -36.33305740356445
+    }
+  },
+
+  "ha=AAPL__model=__mode=Delta-Hedging": {
+    "data_mode": "Delta-Hedging",
+    "model": "",
+    "hedge_assets": [
+      "AAPL"
+    ],
+    "status": "success",
+    "metrics": {
+      "loss": 306285.375,
+      "mean_pnl": -3.24
+    }
+  }
+}

@@ -1,0 +1,51 @@
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Machine learning and deep learning
+torch>=1.10.0
+scikit-learn>=1.0.0
+
+# JAX ecosystem (for SigFormer)
+jax>=0.4.0
+jaxlib>=0.4.0
+jaxtyping>=0.2.0
+equinox>=0.11.0
+optax>=0.1.0
+einops>=0.6.0
+signax>=0.1.0
+lamb>=0.1.0
+
+# Hyperparameter optimization
+optuna>=3.0.0
+
+# Data handling and visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Configuration
+PyYAML>=5.4.0
+
+# Data download
+yfinance>=0.2.0
+tqdm>=4.62.0
+
+# Database access (optional, for WRDS data)
+wrds>=3.0.0
+
+# Utilities
+joblib>=1.0.0
+
+#-------- ONLY NECESSARY TO RUN SigDiffusion -------
+diffrax==0.7.0
+iisignature==0.24
+pyparsing==3.2.5
+six==1.17.0
+sympy==1.14.0
+torchdiffeq==0.2.5
+SciencePlots==2.2.0
+
+
+
