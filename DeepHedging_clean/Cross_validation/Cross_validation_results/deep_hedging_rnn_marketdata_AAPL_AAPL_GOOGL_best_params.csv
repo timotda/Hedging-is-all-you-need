@@ -1,0 +1,2 @@
+hidden_dim_1,hidden_dim_2,learning_rate,batch_size,bn_eps,bn_momentum,best_value,best_trial
+28,60,0.007054707457873313,1000,0.0005571058545265336,0.4441047846566639,3.21428792769073e-30,23

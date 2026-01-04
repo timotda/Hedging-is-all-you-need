@@ -1,0 +1,76 @@
+# config.yaml
+seed: 42
+
+Hedging:
+  underlying: 'AAPL'
+  hedge_assets: ['AAPL']
+  model: RNN_BN_simple # choose between RNN_BN_simple, SigFormer 
+  data_mode: diffusion # choose between market_data, delta_hedge, diffusion, bs_deephedging
+  cross_validation: False # only available for BS and market data
+
+dataset:
+  stock_prices_path: "Data/stocks_close_prices_2008_2025.csv" # path to pre-dowloaded stock prices 
+  seq_len : 30 # Size of Windows
+  dim : 1 
+
+training:
+  batch_size: 128
+
+cross_validation:
+  n_trials: 30
+  n_trails_per_study: 15
+
+plotting : 
+  is_plot : False
+  plot_path : "plots"
+
+MarketData_RNN_Default:
+  default_network_params:
+    'hidden_dim_1': 20
+    'hidden_dim_2': 20
+    'bn_eps': 1e-3
+    'bn_momentum': 0.3
+      
+  default_training_params:
+    'learning_rate': 0.1
+    'batch_size': 10000
+    'batch_num': 20
+    'epoch_num': 100
+
+BS_RNN_Default:
+  default_network_params:
+    'regime_embed_dim': 4
+    'hidden_dim_1': 20
+    'hidden_dim_2': 20
+    'bn_eps': 1e-3
+    'bn_momentum': 0.3
+      
+  default_training_params:
+    'learning_rate': 0.1
+    'batch_size': 10000
+    'batch_num': 20
+    'epoch_num': 100
+
+Diffusion_RNN_Default:
+  default_network_params:
+    'hidden_dim_1': 20
+    'hidden_dim_2': 20
+    'bn_eps': 1e-3
+    'bn_momentum': 0.3
+      
+  default_training_params:
+    'learning_rate': 0.1
+    'batch_size': 10000
+    'batch_num': 20
+    'epoch_num': 100
+
+SigFormer:
+  'epochs': 5
+  'batch_size': 20000
+  'model_dim': 8
+  'learning_rate': 1e-3
+  'n_heads': 2
+  'd_ff': 32
+  'order': 3
+  'n_blocks': 2
+  'seed': 0
